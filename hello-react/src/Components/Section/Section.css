@@ -1,0 +1,32 @@
+.Section {
+    width: 100%;
+    padding: 5rem;
+    box-sizing: border-box;
+    background-color: #1F2535;
+    color: white;
+}
+
+.Section .container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.Section h2 {
+    font-size: 4em;
+    margin: 0;
+}
+
+.Section p {
+}
+
+.Section button {
+    margin-top: 1em;
+    border-radius: 3px;
+    padding: 1em 2em;
+    font-size: 1.2em;
+}

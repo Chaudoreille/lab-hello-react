@@ -1,0 +1,16 @@
+.Navbar {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1F2535;
+    align-items:center
+}
+
+.Navbar-logo {
+    margin: 0 5rem;
+}
+
+.Navbar-menu-icon {
+    margin: 0 5rem;
+}

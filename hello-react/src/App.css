@@ -1,7 +1,8 @@
+body {
+  place-items: flex-start !important;
+}
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -39,4 +40,12 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.features-container {
+  padding: 10em 1em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
 }
